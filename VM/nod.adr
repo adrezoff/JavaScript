@@ -1,0 +1,35 @@
+input a
+input b
+var n = 0
+if a < n (
+x = a
+a = a - a
+a = a - x )
+if b < n (
+x = b
+b = b - b
+b = b - x )
+if a == n (
+jumpforw 4 )
+jumpforw 11
+if b == n (
+print str: Error! 
+end )
+if a > n (
+jumpforw 2 )
+if b == n (
+print a
+end )
+if b > n (
+jumpforw 2 )
+if a == n (
+print b
+end )
+if a == b (
+print a
+end )
+if a > b (
+a = a - b
+jumpback 19 )
+b = b - a
+jumpback 27
